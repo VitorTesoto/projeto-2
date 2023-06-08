@@ -1,5 +1,6 @@
 body{
     background: #252B42;
+    margin:auto;
 }
 .legenda{
     margin-left:195px;
@@ -112,8 +113,182 @@ body{
     margin-left:195px;
     width:94px;
     height:7px;
-    background:#E74040;
-    border-color:#E74040;
-
 }
-    
+.pack{
+    margin-left:195px;
+    margin-top:35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color:#FFFFFF;
+}
+.problems{
+    margin-top:35px;
+    margin-left:195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:#FFFFFF;
+}
+.learn{
+    color:#23A6F0;
+    margin-top:35px;
+    margin-left:195px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.div-fundo{
+    width:237px;
+    height:292px;
+    background-color:white;
+    margin-left:732px;
+    margin-top:-440px;
+}
+.div-fundo-2{
+    width:237px;
+    height:292px;
+    background-color:white;
+    margin-left:1002px;
+    margin-top:-100px;
+}
+.imagem-2{
+    border-radius: 10px;
+    margin-left:40px;
+    margin-top:-100px;
+    padding-top:35px;
+}
+.books{
+    margin-top:20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:#252B42;
+    }
+.barra-2{
+    width:50px;
+    height:2px;
+}
+.the{
+    margin-top:20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color:#737373;
+}
+.imagem-3{
+    border-radius: 10px;
+    margin-left:40px;
+    margin-top:-100px;
+    padding-top:35px;
+}
+.courses{
+    margin-top:20px;
+    color:#252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.barra-3{
+    width:50px;
+    height:2px;
+}
+.div-fundo-3{
+    width:237px;
+    height:292px;
+    background-color:white;
+    margin-left:732px;
+    margin-top:-170px;
+}
+.imagem-3{
+    border-radius: 10px;
+    margin-left:40px;
+    margin-top:-100px;
+    padding-top:35px;
+}
+.sales{
+    margin-top:20px;
+    color:#252B42;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.barra-4{
+    width:50px;
+    height:2px;
+}
+
+.practice {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #23A6F0;
+    margin-left: 198px;
+    margin-top: 160px;
+}
+
+.featured {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-left: 198px;
+    margin-top: 10px;
+}
+
+.subtxt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 198px;
+    margin-top: 10px;
+}
+
+.curso1 {
+    width: 348px;
+    height: 678px;
+    background: #FFFFFF;
+    margin-left: 187px;
+    margin-top: 80px;
+}
+
+.img-curso1 {
+    background-image: url("imagem/img-curso1.png");
+}
+
+.curso2 {
+    width: 348px;
+    height: 678px;
+    background: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.block {
+    display: inline-block;
+}
