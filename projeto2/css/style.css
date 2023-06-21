@@ -1,6 +1,6 @@
 body{
     background: #252B42;
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -25,6 +25,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     word-spacing: 21px;
+    width: 300px;
 }
 
 .legenda-3{
@@ -86,6 +87,10 @@ body{
     line-height: 30px;
     color:white;
 
+}
+
+.buttons {
+    width: 700px;
 }
 
 .button-2{
@@ -796,3 +801,56 @@ footer {
     line-height: 24px;
     color: #737373;
 }
+
+.nowrap {
+    flex-wrap: nowrap; 
+}
+
+@media (max-width: 992px) {
+    .legenda-2 {
+        width: 300px;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .legenda-5{
+        font-size: 38px;
+        line-height: 40px;
+    
+    }
+    
+    .legenda-6 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .imagem {
+        width: 500px;
+        height: 500px;
+        margin-top: -400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .legenda {
+        margin-left: 600px;
+        font-size: 40px;
+    }
+    
+    .legenda-2 {
+        display: none;
+    }
+
+    .legenda-3 {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+
+
+}
+  
