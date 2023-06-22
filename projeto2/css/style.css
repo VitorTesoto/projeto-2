@@ -63,6 +63,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     color:#23A6F0;
+    width: 100px;
 }
 
 .legenda-5{
@@ -74,6 +75,7 @@ body{
     font-size: 58px;
     line-height: 80px;
     color:white;
+    width: 300px;
 
 }
 
@@ -86,6 +88,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     color:white;
+    width: 300px;
 
 }
 
@@ -145,6 +148,7 @@ body{
     font-size: 40px;
     line-height: 50px;
     color:#FFFFFF;
+    width: 400px;
 }
 
 .problems{
@@ -156,6 +160,7 @@ body{
     font-size: 14px;
     line-height: 20px;
     color:#FFFFFF;
+    width: 300px;
 }
 
 .learn{
@@ -167,21 +172,22 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
+    width: 300px;
 }
 
 .div-fundo{
     width:237px;
     height:292px;
     background-color:white;
-    margin-left:732px;
     margin-top:-440px;
+    margin-left: 190px;
 }
 
 .div-fundo-2{
     width:237px;
     height:292px;
     background-color:white;
-    margin-left:1002px;
+    margin-left: 450px;
     margin-top:-100px;
 }
 
@@ -249,8 +255,8 @@ body{
     width:237px;
     height:292px;
     background-color:white;
-    margin-left:732px;
     margin-top:-170px;
+    margin-left: 190px;
 }
 
 .imagem-3{
@@ -292,6 +298,10 @@ body{
     margin-top:-350px;
     background: #E74040;
     border-color:#E74040;
+}
+
+.quadrados2 {
+    margin-top: 500px;
 }
 
 .alinhamento {
@@ -381,7 +391,7 @@ body{
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
 }
 
 .block {
@@ -806,6 +816,16 @@ footer {
     flex-wrap: nowrap; 
 }
 
+.div-pai {
+    width: 100%;
+    display: flex;
+}
+
+.div-filho {
+    width: 50%;
+    display: inline-block;
+}
+
 @media (max-width: 992px) {
     .legenda-2 {
         width: 300px;
@@ -828,13 +848,24 @@ footer {
     .imagem {
         width: 500px;
         height: 500px;
-        margin-top: -400px;
+        margin-top: 20px;
+        margin-left: 85px;
+    }
+
+    .div-pai {
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+    }
+
+    .div-filho {
+        width:100%;
     }
 }
 
 @media (max-width: 768px) {
+    
     .legenda {
-        margin-left: 600px;
         font-size: 40px;
     }
     
@@ -850,6 +881,15 @@ footer {
         display: none;
     }
 
+    .div-pai {
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+    }
+    
+    .div-filho {
+        width:100%
+    }
 
 
 }
