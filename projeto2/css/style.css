@@ -295,7 +295,6 @@ body{
     width:50px;
     height:2px;
     margin-left: 0px;
-    margin-top:-350px;
     background: #E74040;
     border-color:#E74040;
 }
@@ -305,7 +304,8 @@ body{
 }
 
 .alinhamento {
-    margin-left: 859px;
+    margin-left: 200px;
+    margin-top: 200px;
 }
 
 .wat{
@@ -374,10 +374,11 @@ body{
     color: white;
     margin-left: 198px;
     margin-top: 10px;
+    width: 500px;
 }
 
 .problems-3{
-    width: 351px;
+    width: 500px;
     height: 60px;
     margin-top:10px;
     margin-left: 198px;
@@ -400,6 +401,7 @@ body{
 
 .cursos {
     margin-top: 80px;
+    justify-content: center;
 }
 
 
@@ -407,14 +409,21 @@ body{
     width: 348px;
     height: 678px;
     background: white;
-    margin-left: 187px;
 }
 
 .curso2 {
     width: 348px;
     height: 678px;
     background: white;
-    margin-left: 10px;
+    margin-left: 90px;
+
+}
+
+.curso3 {
+    width: 348px;
+    height: 678px;
+    background: white;
+    margin-left: 180px;
 }
 
 .bg-curso1 {
@@ -826,6 +835,12 @@ footer {
     display: inline-block;
 }
 
+.div-filho2 {
+    width: 33%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (max-width: 992px) {
     .legenda-2 {
         width: 300px;
@@ -861,6 +876,24 @@ footer {
     .div-filho {
         width:100%;
     }
+
+    .alinhamento {
+        margin-top: 0px;
+    }
+
+    .div-filho2 {
+        width: 40%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .curso3 {
+        width: 348px;
+        height: 678px;
+        background: white;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -891,6 +924,30 @@ footer {
         width:100%
     }
 
+    .alinhamento {
+        margin-top: 0px;
+    }
 
+    .div-filho2 {
+        width: 40%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .curso3 {
+        width: 348px;
+        height: 678px;
+        background: white;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
 }
-  
+ 
+@media (max-width: 716px) {
+    .curso2 {
+        width: 348px;
+        height: 678px;
+        background: white;
+        margin-left: 0px;
+    }
+}
